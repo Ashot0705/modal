@@ -1,0 +1,195 @@
+body {
+	background-image: url("../images/beach.jpg");
+	background-repeat: no-repeat;
+}
+.navbar li {
+	display:inline;
+}
+li {
+	font-size: 30px;
+	margin: auto 10px;
+	color: white;
+	text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+#left-block {
+	float:left;
+
+}
+#right-block {
+	float:right;
+}
+
+h1.sometext {
+	font-size: 100px;
+	color: white;
+	text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+	text-align: center;
+	position:relative;
+	top: 91px;
+	/*z-index: -2;*/
+}
+#header {
+	text-align: center;
+	color: #dfff00;
+	font-size: 40px;
+
+}
+
+.overlay {
+	opacity: 0;
+}
+.modal-pop{
+	display: none;
+	border: 1px solid black;
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	/*float: right;*/
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+/*	bottom: 0;
+	right: 0;*/
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #005ec3;
+
+}
+#p-email {
+	margin-bottom: 3px !important;
+	margin-left: 10%;
+	font-size: 20px;
+	color: white;
+}
+img {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.my-button {
+	color: #005ec3;
+	background-color: white;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.text-sub {
+	width: 100%;
+
+}
+
+.my-button:hover {
+	color: white;
+	background-color: #ff0000;
+}
+
+ .my-button {
+ 	width: 486px;
+	height: 36px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+	font-size: 18px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+
+ }
+#e-mail {
+	width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+	height: 30px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.highlight {
+	font-size: 36px;
+	color: #ff0000;
+	font-weight: bold;
+
+}
+
+.button-place {
+	width: 100%;
+	height: 46px;
+}
+.e-mail_box {
+		margin-top: 45px;
+		margin-bottom: 0;
+}
+p#modal-paragraph {
+	color: #dfff00;
+	font-size: 28px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+p#closing a:hover {
+	text-decoration: underline;
+}
+a {
+	margin-top: 0;
+	text-decoration: none;
+	color: white !important;
+	font-size: 18px;
+
+}
+p#closing {
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+/*p#main {
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 30px;
+	color: white;
+	width: 100%;
+	text-align: justify;
+	z-index: -0.5;
+}*/
